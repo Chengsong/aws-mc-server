@@ -1,0 +1,6 @@
+wget -d \
+    --header="Authorization: Bearer SLbGl_ZVuVAAAAAAAAAAjJPhsYbjwLlObufaxjlMNjj56lCLWsUDB1uXYPw3CTF7" \
+    --header="Dropbox-API-Arg: {\"path\": \"/world.zip\"}" \
+    --header="Content-Type:" \
+    --post-data="" \
+    https://content.dropboxapi.com/2/files/download
