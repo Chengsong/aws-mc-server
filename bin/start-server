@@ -15,5 +15,5 @@ touch ops.json
 heap=${HEAP:-"1024M"}
 
 echo "Starting: minecraft ${mc_port}"
-java -Xmx${heap} -Xms${heap} -XX:+UseCompressedOops -jar server.jar nogui
+java -Xmx${heap} -Xms${heap} -XX:+UseCompressedOops -jar ~/server.jar nogui
 
